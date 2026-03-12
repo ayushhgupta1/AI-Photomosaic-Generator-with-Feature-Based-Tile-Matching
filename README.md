@@ -9,12 +9,21 @@ From a distance, the mosaic resembles the original image, while zooming in revea
 
 # Example
 
-Input:
-- Target image
-- Dataset of tile images
+The system reconstructs a target image using thousands of smaller tile images.
 
-Output:
-- A photomosaic composed entirely of the tile images.
+### Target Image
+
+![Target Image](Target.png)
+### Generated Photomosaic
+
+![Mosaic Output](Output.png)
+
+⚠️ **Note:** The image shown above is a compressed/screenshot version of the generated mosaic.  
+The original mosaic output is extremely high resolution (~90MB), so it cannot be displayed directly on GitHub.
+
+The **full-resolution output file** is available in the dataset link below.
+
+From a distance the mosaic looks like the original image, while zooming in reveals the individual tile images used to construct it.
 
 ---
 
@@ -112,6 +121,26 @@ Gaussian blending smooths tile boundaries to reduce visible seams.
 
 ---
 
+# Dataset
+
+The dataset and full-resolution mosaic output are available here:
+
+Dataset + Full Resolution Output:  
+https://drive.google.com/drive/folders/1-lUkb09ujv2WZeEJpwz3edOTtII_inzG?usp=share_link
+
+The dataset contains a collection of photographs captured during a trip to **Goa**.  
+These images are used as the tile database for constructing the photomosaic.
+
+Anyone can experiment with the project by:
+
+1. Downloading the dataset
+2. Placing the images inside the `tile_images/` directory
+3. Changing the target image
+
+The system will automatically reconstruct the target image using the provided tile dataset.
+
+---
+
 # Technologies Used
 
 - Python
@@ -204,9 +233,11 @@ Final mosaic height:
 # Project Structure
 
 ```
-photomosaic-generator
+AI-Photomosaic-Generator-with-Feature-Based-Tile-Matching
 │
 ├── notebook.ipynb
+├── Target.png
+├── Output.png
 ├── output/
 ├── tile_images/
 └── README.md
