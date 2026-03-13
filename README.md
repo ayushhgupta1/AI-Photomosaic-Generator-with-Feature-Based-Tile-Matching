@@ -165,8 +165,8 @@ Core techniques include:
 Clone the repository:
 
 ```bash
-git clone https://github.com/ayushhgupta1/AI-Photomosaic-Generator-with-Feature-Based-Tile-Matching.git
-cd AI-Photomosaic-Generator-with-Feature-Based-Tile-Matching
+git clone https://github.com/ayushhgupta1/Photomosaic-Generator-with-Feature-Based-Tile-Matching.git
+cd Photomosaic-Generator-with-Feature-Based-Tile-Matching
 ```
 
 Install dependencies:
