@@ -1,4 +1,4 @@
-# AI Photomosaic Generator
+#Photomosaic Generator
 
 A high-resolution **photomosaic generator** that reconstructs a target image using a dataset of smaller tile images.  
 The system uses **computer vision feature extraction**, **KD-Tree nearest neighbor search**, and **tile diversity control** to intelligently match tiles and recreate the target image.
